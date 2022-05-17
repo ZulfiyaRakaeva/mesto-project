@@ -1,0 +1,5 @@
+@media screen and (max-width: 320px) {
+    .section-narrow {
+        padding: 0 19px;
+    }
+}

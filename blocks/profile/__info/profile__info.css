@@ -1,0 +1,21 @@
+.profile__info {
+    display: inline-grid;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 0 17px 30px;
+    gap: 16px 18px;
+    grid-template-areas:
+        "profile__name bottom__type"
+        " profile__description profile__description";
+    max-width: 336px;
+}
+
+@media screen and (max-width: 700px) {
+    .profile__info {
+        flex-direction: column;
+        align-self: center;
+        padding: 0;
+        gap: 14px 10px;
+        max-height: 54px;
+    }
+}

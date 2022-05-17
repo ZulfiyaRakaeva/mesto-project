@@ -1,0 +1,23 @@
+.form__submit-button {
+    background-image: url("../../images/Submit_Button.svg");
+    width: 358px;
+    height: 50px;
+    margin-top: 48px;
+    border-radius: 2px;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 700px) {
+    .form__submit-button {
+        background-image: url("../../images/Submit_Button_small.jpg");
+        width: 238px;
+        height: 46px;
+        margin-top: 45px;
+        border-radius: 2px;
+    }
+}
+
+.form__submit-button:hover {
+    transition: opacity .2s linear;
+    opacity: 0.8;
+}
