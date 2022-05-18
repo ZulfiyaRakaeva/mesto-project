@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 17px 0 17px 30px;
-    gap: 16px 18px;
+    gap: 3px 18px;
     grid-template-areas:
         "profile__name bottom__type"
         " profile__description profile__description";
@@ -15,7 +15,6 @@
         flex-direction: column;
         align-self: center;
         padding: 0;
-        gap: 14px 10px;
-        max-height: 54px;
+        gap: 8px 15px;
     }
 }

@@ -1,0 +1,16 @@
+.element__group {
+  background-image: url("../../../images/regular_like.svg");
+  width: 22px;
+  height: 19px;
+  transition: opacity .2s linear;
+  cursor: pointer;
+}
+
+.element__group:hover {
+  opacity: 0.5;
+}
+
+.element__group:active {
+  opacity: 1;
+  background-image: url("../../../images/like_active.svg");
+}

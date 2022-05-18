@@ -1,8 +1,7 @@
 .element__info {
-    display: flex;
-    width: 246px;
-    height: 23px;
-    justify-content: space-between;
-    align-items: center;
-    margin: 25px 0 31px;
+  display: flex;
+  width: 246px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px 0 25px;
 }

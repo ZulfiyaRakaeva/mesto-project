@@ -42,7 +42,7 @@ h1 {
   margin: 0.67em 0;
 }
 
-/* Grouping content
+/* element__grouping content
    ========================================================================== */
 
 /**
@@ -159,7 +159,7 @@ img {
 
 button,
 input,
-optgroup,
+optelement__group,
 select,
 textarea {
   font-family: inherit; /* 1 */

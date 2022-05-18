@@ -28,7 +28,8 @@
 ### Контактная информация.
 
 Почта: [rakaeva.zulfia@yandex.ru]
-GitHub: [https://github.com/ZulfiyaRakaeva/mesto-project]
+GitHub: [https://zulfiyarakaeva.github.io/mesto-project/index.html]
+
 
 
 # The project "Mesto"
@@ -61,4 +62,4 @@ The correct display of the web system cannot be guaranteed if any of the user's 
 ### Contact information.
 
 Mail: [rakaeva.zulfia@yandex.ru]
-GitHub: [https://github.com/ZulfiyaRakaeva/mesto-project]
+GitHub: [https://zulfiyarakaeva.github.io/mesto-project/index.html]

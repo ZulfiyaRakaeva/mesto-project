@@ -12,28 +12,27 @@
 </head>
 
 <body class="page">
+  <header class="header">
+    <img src="./images/logoMesto.svg" alt="Mesto" class="header__logo">
+  </header>
+
   <main class="content">
-    <header class="header">
-      <img src="./images/logoMesto.svg" alt="Mesto" class="header__logo">
-      <hr class="line">
-    </header>
-    <section class="popup popup_opened">
-      <form class="form">
-        <div class="form__main-container">
-          <h2 class="form__heading">Редактировать профиль</h2>
-          <fieldset class="form__input-container">
-            <input type="text" placeholder="Имя" class="form__item form__item_heading" id=heading name="heading"
-              value="Жак-Ив Кусто" required>
-            <hr class="form__line">
-            <input type="text" placeholder="Информация" class="form__item form__item_subheading" id=subheading
-              name="subheading" value="Исследователь океана" required>
-            <hr class="form__line">
-            <button class="form__submit-button button">
-            </button>
-          </fieldset>
+    <section>
+      <div class="popup">
+        <div class="popup__container">
+          <form name="form1" class="form">
+            <h2 class="form__heading">Редактировать профиль</h2>
+            <fieldset class="form__input-container">
+              <input type="text" placeholder="Имя" class="form__item form__item_el_heading" id=heading name="heading"
+                value="Жак-Ив Кусто" required>
+              <input type="text" placeholder="Информация" class="form__item form__item_el_subheading" id=subheading
+                name="subheading" value="Исследователь океана" required>
+              <button type="button" aria-label="Сохранить" class="form__submit-button button">Сохранить</button>
+            </fieldset>
+          </form>
+          <button type="button" aria-label="Закрыть" class="popup__close"></button>
         </div>
-      </form>
-      <button class="cross"></button>
+      </div>
     </section>
 
     <section class="profile section-narrow">
@@ -41,66 +40,67 @@
         <img src="./images/image_profile.jpg" alt="Жак-Ив Кусто" class="profile__avatar">
         <div class="profile__info">
           <h1 class="profile__name">Жак-Ив Кусто</h1>
-          <button type="button" class="profile__edit-button">
+          <button type="button" aria-label="Редактировать профиль" class="profile__edit-button">
           </button>
           <p class="profile__description">Исследователь океана</p>
         </div>
       </div>
-      <button type="button" class="profile__add-button button">
+      <button type="button" aria-label="Добавить карточку" class="profile__add-button button">
       </button>
     </section>
 
     <section class="elements section-narrow">
       <ul class="elements__list">
         <li class="element">
-          <img src="./images/karachaevsk.jpg" alt="Карачаевск" class="element__mask-group">
+          <img src="./images/karachaevsk.jpg" alt="Карачаевск" class="element__image">
           <div class="element__info">
             <h2 class="element__name">Карачаевск</h2>
-            <button class="group button"></button>
+            <button type="button" aria-label="Поставить лайк" class="element__group button"></button>
           </div>
         </li>
         <li class="element">
-          <img src="./images/gora_elbrus.jpg" alt="Гора Эльбрус" class="element__mask-group">
+          <img src="./images/gora_elbrus.jpg" alt="Гора Эльбрус" class="element__image">
           <div class="element__info">
             <h2 class="element__name">Гора Эльбрус</h2>
-            <button class="group button"></button>
+            <button type="button" aria-label="Поставить лайк" class="element__group button"></button>
           </div>
         </li>
         <li class="element">
-          <img src="./images/dombay.jpg" alt="Домбай" class="element__mask-group">
+          <img src="./images/dombay.jpg" alt="Домбай" class="element__image">
           <div class="element__info">
             <h2 class="element__name">Домбай</h2>
-            <button class="group button"></button>
+            <button type="button" aria-label="Поставить лайк" class="element__group button"></button>
           </div>
         </li>
         <li class="element">
-          <img src="./images/gora_elbrus.jpg" alt="Гора Эльбрус" class="element__mask-group">
+          <img src="./images/gora_elbrus.jpg" alt="Гора Эльбрус" class="element__image">
           <div class="element__info">
             <h2 class="element__name">Гора Эльбрус</h2>
-            <button class="group button"></button>
+            <button type="button" aria-label="Поставить лайк" class="element__group button"></button>
           </div>
         </li>
         <li class="element">
-          <img src="./images/dombay.jpg" alt="Домбай" class="element__mask-group">
+          <img src="./images/dombay.jpg" alt="Домбай" class="element__image">
           <div class="element__info">
             <h2 class="element__name">Домбай</h2>
-            <button class="group button"></button>
+            <button type="button" aria-label="Поставить лайк" class="element__group button"></button>
           </div>
         </li>
         <li class="element">
-          <img src="./images/karachaevsk.jpg" alt="Карачаевск" class="element__mask-group">
+          <img src="./images/karachaevsk.jpg" alt="Карачаевск" class="element__image">
           <div class="element__info">
             <h2 class="element__name">Карачаево-Черкесия</h2>
-            <button class="group button"></button>
+            <button type="button" aria-label="Поставить лайк" class="element__group button"></button>
           </div>
         </li>
       </ul>
     </section>
-    <footer class="footer section-narrow">
-      <h3 class="footer__item">© 2020 Mesto Russia
-      </h3>
-    </footer>
   </main>
+
+  <footer class="footer section-narrow">
+    <p class="footer__item">© 2020 Mesto Russia
+    </p>
+  </footer>
 </body>
 
 </html>
