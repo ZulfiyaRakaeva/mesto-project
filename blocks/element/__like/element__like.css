@@ -1,4 +1,4 @@
-.element__group {
+.element__like {
   background-image: url("../../../images/regular_like.svg");
   width: 22px;
   height: 19px;
@@ -6,11 +6,11 @@
   cursor: pointer;
 }
 
-.element__group:hover {
+.element__like:hover {
   opacity: 0.5;
 }
 
-.element__group:active {
+.element__like:active {
   opacity: 1;
   background-image: url("../../../images/like_active.svg");
 }

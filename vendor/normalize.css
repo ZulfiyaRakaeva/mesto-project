@@ -42,7 +42,7 @@ h1 {
   margin: 0.67em 0;
 }
 
-/* element__grouping content
+/* element__likeing content
    ========================================================================== */
 
 /**
@@ -159,7 +159,7 @@ img {
 
 button,
 input,
-optelement__group,
+optelement__like,
 select,
 textarea {
   font-family: inherit; /* 1 */

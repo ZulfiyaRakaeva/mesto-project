@@ -17,27 +17,10 @@
   </header>
 
   <main class="content">
-    <section>
-      <div class="popup">
-        <div class="popup__container">
-          <form name="form1" class="form">
-            <h2 class="form__heading">Редактировать профиль</h2>
-            <fieldset class="form__input-container">
-              <input type="text" placeholder="Имя" class="form__item form__item_el_heading" id=heading name="heading"
-                value="Жак-Ив Кусто" required>
-              <input type="text" placeholder="Информация" class="form__item form__item_el_subheading" id=subheading
-                name="subheading" value="Исследователь океана" required>
-              <button type="button" aria-label="Сохранить" class="form__submit-button button">Сохранить</button>
-            </fieldset>
-          </form>
-          <button type="button" aria-label="Закрыть" class="popup__close"></button>
-        </div>
-      </div>
-    </section>
 
     <section class="profile section-narrow">
       <div class="profile__site">
-        <img src="./images/image_profile.jpg" alt="Жак-Ив Кусто" class="profile__avatar">
+        <img src="./images/image_profile.jpg" alt="Аватар пользователя" class="profile__avatar">
         <div class="profile__info">
           <h1 class="profile__name">Жак-Ив Кусто</h1>
           <button type="button" aria-label="Редактировать профиль" class="profile__edit-button">
@@ -55,46 +38,61 @@
           <img src="./images/karachaevsk.jpg" alt="Карачаевск" class="element__image">
           <div class="element__info">
             <h2 class="element__name">Карачаевск</h2>
-            <button type="button" aria-label="Поставить лайк" class="element__group button"></button>
+            <button type="button" aria-label="Поставить лайк" class="element__like button"></button>
           </div>
         </li>
         <li class="element">
           <img src="./images/gora_elbrus.jpg" alt="Гора Эльбрус" class="element__image">
           <div class="element__info">
             <h2 class="element__name">Гора Эльбрус</h2>
-            <button type="button" aria-label="Поставить лайк" class="element__group button"></button>
+            <button type="button" aria-label="Поставить лайк" class="element__like button"></button>
           </div>
         </li>
         <li class="element">
           <img src="./images/dombay.jpg" alt="Домбай" class="element__image">
           <div class="element__info">
             <h2 class="element__name">Домбай</h2>
-            <button type="button" aria-label="Поставить лайк" class="element__group button"></button>
+            <button type="button" aria-label="Поставить лайк" class="element__like button"></button>
           </div>
         </li>
         <li class="element">
           <img src="./images/gora_elbrus.jpg" alt="Гора Эльбрус" class="element__image">
           <div class="element__info">
             <h2 class="element__name">Гора Эльбрус</h2>
-            <button type="button" aria-label="Поставить лайк" class="element__group button"></button>
+            <button type="button" aria-label="Поставить лайк" class="element__like button"></button>
           </div>
         </li>
         <li class="element">
           <img src="./images/dombay.jpg" alt="Домбай" class="element__image">
           <div class="element__info">
             <h2 class="element__name">Домбай</h2>
-            <button type="button" aria-label="Поставить лайк" class="element__group button"></button>
+            <button type="button" aria-label="Поставить лайк" class="element__like button"></button>
           </div>
         </li>
         <li class="element">
           <img src="./images/karachaevsk.jpg" alt="Карачаевск" class="element__image">
           <div class="element__info">
             <h2 class="element__name">Карачаево-Черкесия</h2>
-            <button type="button" aria-label="Поставить лайк" class="element__group button"></button>
+            <button type="button" aria-label="Поставить лайк" class="element__like button"></button>
           </div>
         </li>
       </ul>
     </section>
+    <div class="popup">
+      <div class="popup__container">
+        <form name="edit-profile1" class="form">
+          <h2 class="form__heading">Редактировать профиль</h2>
+          <fieldset class="form__input-container">
+            <input type="text" placeholder="Имя" class="form__item form__item_el_heading" id="heading" name="heading"
+              value="Жак-Ив Кусто" required>
+            <input type="text" placeholder="Информация" class="form__item form__item_el_subheading" id="subheading"
+              name="subheading" value="Исследователь океана" required>
+            <button type="button submit" aria-label="Сохранить" class="form__submit-button button">Сохранить</button>
+          </fieldset>
+        </form>
+        <button type="button" aria-label="Закрыть" class="popup__close"></button>
+      </div>
+    </div>
   </main>
 
   <footer class="footer section-narrow">
