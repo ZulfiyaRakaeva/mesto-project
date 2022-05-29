@@ -78,9 +78,9 @@
         </li>
       </ul>
     </section>
-    <div class="popup">
+    <div class="popup" id="popupEdit">
       <div class="popup__container">
-        <form name="edit-profile1" class="form">
+        <form name="edit-profile" class="form">
           <h2 class="form__heading">Редактировать профиль</h2>
           <fieldset class="form__input-container">
             <input type="text" placeholder="Имя" class="form__item form__item_el_heading" id="heading" name="heading"
@@ -90,7 +90,22 @@
             <button type="submit" aria-label="Сохранить" class="form__submit-button button">Сохранить</button>
           </fieldset>
         </form>
-        <button type="button" aria-label="Закрыть" class="popup__close"></button>
+        <button type="button" aria-label="Закрыть" class="popup__close" id="popupCloseEdit"></button>
+      </div>
+    </div>
+    <div class="popup" id="popupAdd">
+      <div class="popup__container">
+        <form name="edit-profile" class="form">
+          <h2 class="form__heading">Новое место</h2>
+          <fieldset class="form__input-container">
+            <input type="text" placeholder="Название" class="form__item form__item_el_heading" id="heading-new-card" name="heading"
+             required>
+            <input type="text" placeholder="Ссылка на картинку" class="form__item form__item_el_subheading" id="subheading-new-card"
+              name="subheading" required>
+            <button type="submit" aria-label="Создать" class="form__submit-button button">Создать</button>
+          </fieldset>
+        </form>
+        <button type="button" aria-label="Закрыть" class="popup__close" id="popupCloseAdd"></button>
       </div>
     </div>
   </main>
@@ -99,6 +114,7 @@
     <p class="footer__item">© 2020 Mesto Russia
     </p>
   </footer>
+  <script src="./index.js"></script>
 </body>
 
 </html>
